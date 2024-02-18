@@ -1,0 +1,19 @@
+.calendar-container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#calendar {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}

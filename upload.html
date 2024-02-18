@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+  <title>Upload Artworks</title>
+</head>
+
+<body>
+  <div id="header"></div>
+
+  <section id="upload-form">
+    <h2 style='color:#023020'>Upload Artwork</h2>
+    <form style='color:#023020'>
+      <label for="artworkTitle">Title:</label>
+      <input type="text" id="artworkTitle" name="artworkTitle" required>
+
+      <label for="artistName">Artist_Name:</label>
+      <input type="text" id="artistName" name="artistName" required>
+
+      <label for="artistName">Art_Style:</label>
+      <input type="text" id="artistName" name="artistName" required>
+
+      <label for="artworkDescription">Description:</label>
+      <textarea id="artworkDescription" name="artworkDescription" rows="4" required></textarea>
+      <span>KINDLY MAIL YOUR ARTWORK ON etherealexpression@gmail.com</span>
+      <button type="submit">Upload</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h2>About Us</h2>
+        <p>Welcome to Ethereal Expressions Gallery, where art comes to life.</p>
+      </div>
+      <div class="footer-section contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@etherealgallery.com</p>
+        <p>Phone: +1 234 567 890</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Ethereal Expressions Gallery</p>
+    </div>
+  </footer>
+</body>
+
+</html>

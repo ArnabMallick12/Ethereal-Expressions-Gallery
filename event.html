@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Calendar Integration</title>
+  <link rel="stylesheet" href="event.css">
+</head>
+
+<body>
+  <div class="calendar-container">
+    <label for="month">Month:</label>
+    <input type="number" id="month" min="1" max="12" value="1">
+    <label for="year">Year:</label>
+    <input type="number" id="year" min="1900" max="2100" value="2022">
+    <button onclick="fetchCalendar()">Fetch Calendar</button>
+    <div id="calendar"></div>
+  </div>
+  <script src="event.js"></script>
+</body>
+
+</html>

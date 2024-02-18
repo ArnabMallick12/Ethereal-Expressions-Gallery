@@ -11,64 +11,79 @@
   <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
+  
   <title>Ethereal Expressions Gallery</title>
 </head>
 <style>
   @import url('https://fonts.cdnfonts.com/css/all-pony');
 </style>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">
+  </script>
+<script>
+  $(function () {
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+  });
+</script>
 
 <body>
-  <header>
-    <nav>
-      <div id="logo">
-        <img src="Gallery/1.jpg" alt="logo">
-      </div>
-      <h1>Ethereal Expressions Gallery</h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Artists</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="login.html">Login</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div id="header"></div>+
 
   <section id="featured-products">
     <!-- Artwork or gallery content can go here -->
     <div class="flash-card">
-      <img src="Gallery/Mystical Landscape.jpg" alt="Artwork 1">
+      <img src="https://cdn.pixabay.com/photo/2016/12/15/20/21/texture-1909992_1280.jpg" alt="Artwork 1">
       <div class="artwork-info">
         <h3>Mystical Landscape</h3>
         <p>Artist: Jane Doe</p>
-        <p>Medium: Oil on Canvas</p>
+        <p>Art Style: Oil on Canvas</p>
       </div>
     </div>
 
     <div class="flash-card">
-      <img src="artwork2.jpg" alt="Artwork 2">
+      <img src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/56/5454511/2.jpg?6905"
+        alt="Artwork 2">
       <div class="artwork-info">
         <h3>Abstract Harmony</h3>
         <p>Artist: John Smith</p>
-        <p>Medium: Acrylic on Paper</p>
+        <p>Art Style: Acrylic on Paper</p>
       </div>
     </div>
     <div class="flash-card">
-      <img src="Gallery/Mystical Landscape.jpg" alt="Artwork 1">
+      <img src="https://i.etsystatic.com/9001843/r/il/86a001/4540195690/il_570xN.4540195690_rghf.jpg" alt="Artwork 2">
       <div class="artwork-info">
-        <h3>Mystical Landscape</h3>
-        <p>Artist: Jane Doe</p>
-        <p>Medium: Oil on Canvas</p>
+        <h3>Abstract Harmony</h3>
+        <p>Artist: John Smith</p>
+        <p>Art Style: Acrylic on Paper</p>
       </div>
     </div>
     <div class="flash-card">
-      <img src="Gallery/Mystical Landscape.jpg" alt="Artwork 1">
+      <img src="https://images-cdn.ubuy.co.in/6356fa576542304cc25dd52a-abstract-painting-bright-wall-art-on.jpg"
+        alt="Artwork 2">
+      <div class="artwork-info">
+        <h3>Abstract Harmony</h3>
+        <p>Artist: John Smith</p>
+        <p>Art Style: Acrylic on Paper</p>
+      </div>
+    </div>
+    <div class="flash-card">
+      <img src="https://www.deepimpressions.co.uk/wp-content/uploads/2023/06/Freediver-72.jpg" alt="Artwork 1">
       <div class="artwork-info">
         <h3>Mystical Landscape</h3>
         <p>Artist: Jane Doe</p>
-        <p>Medium: Oil on Canvas</p>
+        <p>Art Style: Oil on Canvas</p>
+      </div>
+    </div>
+    <div class="flash-card">
+      <img src="https://i.pinimg.com/736x/d3/30/1a/d3301ac8a32440439feb91d5d5dbb9bf.jpg" alt="Artwork 1">
+      <div class="artwork-info">
+        <h3>Mystical Landscape</h3>
+        <p>Artist: Jane Doe</p>
+        <p>Art Style: Oil on Canvas</p>
       </div>
     </div>
   </section>
